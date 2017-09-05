@@ -1,0 +1,42 @@
+## Libraries#
+library(UScensus2010)#
+library("rgdal")#
+library("sp")#
+library(dplyr)#
+library(spBayes)#
+library(MBA)#
+#
+## Set global options here#
+options(stringsAsFactors = FALSE)#
+#
+## Bring in Data#
+load("/Users/almquist/Documents/Projects/Homeles_counts/Data/Server/Data/County2010/USCounty2010.Rda")#
+loc<-"/Users/almquist/Documents/Projects/Homeles_counts/Data/Server/Data/COC_HUD_Rda"#
+files<-dir(loc)#
+#
+#setwd(loc)#
+for(i in 1:length(files)){#
+  load(paste(loc,"/",files[i],sep=""))#
+}#
+for(i in 1:length(files)){#
+obj<-sapply(strsplit(files,"\\."),"[[",1)#
+temp<-spTransform(get(obj[i]),proj4string(USCounty2010))#
+coord<-coordinates(temp)#
+#
+assign(obj[i],data.frame(temp@data,"Longitude"=coord[,1],"Latitude"=coord[,2]))#
+}#
+setwd("/Users/almquist/Documents/git/SSDALab/CoCHomeless/data")#
+save.image("CoC_Flat.rda",compress="xz")
+ls()
+sum(CoC_2016$ST=="California")
+sum(CoC_2016$ST=="CA")
+rm(coord,files,i,loc,obj,temp,USCounty2010)
+ls()
+save.image("CoC_Flat.rda",compress="xz")
+head(CoC_2016)
+head(CoC_2016$TotalHomeless)
+sum(CoC_2016$TotalHomeless)
+sum(CoC_2016$TotalHomeless,na.rm=TRUE)
+sum(CoC_2015$TotalHomeless,na.rm=TRUE)
+553854-540566
+13288/553854

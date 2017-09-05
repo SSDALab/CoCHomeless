@@ -1,9 +1,14 @@
 Package: CoCHomeless
 Title: A data package for US Homelessness research
 Version: 0.1.0
-Authors@R: person("Zack", "Almquist", email = "almquist@umn.edu", role = c("aut","cre"),
-           person("You", "Yun", email = "yun.erin.you@gmail.com", role = "aut")) 
-Description: HUD Continuum of Care data for US Homeless from 2005 to 2016. This data is aligned to US Census county level data for use in social science research. 
-Imports: sp (>= 1.2-3)
+Authors@R: c(person("Zack","Almquist", email = "almquist@umn.edu", role = c("aut","cre")),
+              person("Nathaniel", "Helwig", email = "helwig@umn.edu", role = "aut"),
+              person("You", "Yun", email = "yun.erin.you@gmail.com", role = "aut"))
+Description: HUD Continuum of Care data for US Homeless from 2005 to 2016.
+    This data is aligned to US Census county level data for use in social science
+    research.
+Imports:
+    sp (>= 1.2-3)
 License: GPL-3
 LazyData: true
+RoxygenNote: 5.0.1
