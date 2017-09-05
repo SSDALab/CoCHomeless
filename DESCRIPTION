@@ -7,7 +7,7 @@ Authors@R: c(person("Zack","Almquist", email = "almquist@umn.edu", role = c("aut
 Description: HUD Continuum of Care data for US Homeless from 2005 to 2016.
     This data is aligned to US Census county level data for use in social science
     research.
-Imports:
+Depends:
     sp (>= 1.2-3)
 License: GPL-3
 LazyData: true
