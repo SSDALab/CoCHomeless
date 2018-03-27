@@ -4,7 +4,7 @@
 \name{CoC_2013}
 \alias{CoC_2013}
 \title{2013 Continuum of Care (CoC) GIS shapefiles and Homeless Counts}
-\format{An object of class \code{SpatialPolygonsDataFrame} with 406 rows and 32 columns.}
+\format{An object of class \code{SpatialPolygonsDataFrame} with 406 rows and 26 columns.}
 \source{
 https://www.hudexchange.info/programs/coc/gis-tools/
 

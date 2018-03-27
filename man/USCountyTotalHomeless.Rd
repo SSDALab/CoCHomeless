@@ -3,7 +3,7 @@
 \docType{data}
 \name{USCountyTotalHomeless}
 \alias{USCountyTotalHomeless}
-\title{County level homeless counts and Shapefiles}
+\title{County level homeless counts disaggregated by Density and Shapefiles}
 \format{A data frame with 3143 rows:
 \describe{
 }}
@@ -20,7 +20,8 @@ USCountyTotalHomeless
 \description{
 Completed county-level homeless counts (with missing values imputed) and selected
 demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
-and imputed to align with US County shape files.
+and imputed to align with US County shape files. Includes Homeless counts 200-2017
+dissagregated by density.
 }
 \keyword{datasets}
 

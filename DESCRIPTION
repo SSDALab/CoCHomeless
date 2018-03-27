@@ -1,6 +1,6 @@
 Package: CoCHomeless
 Title: A data package for US Homelessness research
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(person("Zack","Almquist", email = "almquist@umn.edu", role = c("aut","cre")),
               person("Nathaniel", "Helwig", email = "helwig@umn.edu", role = "aut"),
               person("You", "Yun", email = "yun.erin.you@gmail.com", role = "aut"))

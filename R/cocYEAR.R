@@ -108,11 +108,21 @@
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
 "CoC_2016"
 
-#' County level homeless counts and Shapefiles
+#' 2017 Continuum of Care (CoC) GIS shapefiles and Homeless Counts
+#'
+#' These GIS shapefiles contain the geographic boundaries and funding status information
+#' for HUD’s Continuum of Care (CoC) areas by Year.
+#'
+#' @source https://www.hudexchange.info/programs/coc/gis-tools/
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"CoC_2017"
+
+#' County level homeless counts disaggregated by Density and Shapefiles
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
-#' and imputed to align with US County shape files.
+#' and imputed to align with US County shape files. Includes Homeless counts 200-2017
+#' dissagregated by density.
 #'
 #' @format A data frame with 3143 rows:
 #' \describe{
@@ -122,7 +132,7 @@
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
 "USCountyTotalHomeless"
 
-#' County level homeless counts, 2007
+#' County level homeless counts disaggregated by Density, 2007
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -134,9 +144,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2007"
+"County_2007den"
 
-#' County level homeless counts, 2008
+#' County level homeless counts disaggregated by Density, 2008
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -148,9 +158,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2008"
+"County_2008den"
 
-#' County level homeless counts, 2009
+#' County level homeless counts disaggregated by Density, 2009
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -162,9 +172,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2009"
+"County_2009den"
 
-#' County level homeless counts, 2010
+#' County level homeless counts disaggregated by Density, 2010
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -176,9 +186,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2010"
+"County_2010den"
 
-#' County level homeless counts, 2011
+#' County level homeless counts disaggregated by Density, 2011
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -190,9 +200,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2011"
+"County_2011den"
 
-#' County level homeless counts, 2012
+#' County level homeless counts disaggregated by Density, 2012
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -204,9 +214,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2012"
+"County_2012den"
 
-#' County level homeless counts, 2013
+#' County level homeless counts disaggregated by Density, 2013
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -218,9 +228,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2013"
+"County_2013den"
 
-#' County level homeless counts, 2014
+#' County level homeless counts disaggregated by Density, 2014
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -232,9 +242,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2014"
+"County_2014den"
 
-#' County level homeless counts, 2015
+#' County level homeless counts disaggregated by Density, 2015
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -246,9 +256,9 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2015"
+"County_2015den"
 
-#' County level homeless counts, 2016
+#' County level homeless counts disaggregated by Density, 2016
 #'
 #' Completed county-level homeless counts (with missing values imputed) and selected
 #' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
@@ -260,8 +270,175 @@
 #' @source Almquist, Helwig and You (2017). Working Paper.
 #' @source http://users.stat.umn.edu/~almquist/software.html
 #' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
-"CoC_DF_2016"
+"County_2016den"
 
+#' County level homeless counts disaggregated by Density, 2017
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2017den"
+
+#' County level homeless counts disaggregated by Area, 2007
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2007area"
+
+#' County level homeless counts disaggregated by Area, 2008
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2008area"
+
+#' County level homeless counts disaggregated by Area, 2009
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2009area"
+
+#' County level homeless counts disaggregated by Area, 2010
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2010area"
+
+#' County level homeless counts disaggregated by Area, 2011
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2011area"
+
+#' County level homeless counts disaggregated by Area, 2012
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2012area"
+
+#' County level homeless counts disaggregated by Area, 2013
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2013area"
+
+#' County level homeless counts disaggregated by Area, 2014
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2014area"
+
+#' County level homeless counts disaggregated by Area, 2015
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2015area"
+
+#' County level homeless counts disaggregated by Area, 2016
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2016area"
+
+#' County level homeless counts disaggregated by Area, 2017
+#'
+#' Completed county-level homeless counts (with missing values imputed) and selected
+#' demographic variables SF 1 Summary file. HUD provided CoC counts disaggregated
+#' and imputed to align with US County shape files.
+#'
+#' @format A data frame with 3143 rows:
+#' \describe{
+#' }
+#' @source Almquist, Helwig and You (2017). Working Paper.
+#' @source http://users.stat.umn.edu/~almquist/software.html
+#' @source https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/
+"County_2017area"
 
 #' US State polygon files
 #'
@@ -271,4 +448,5 @@
 #' \describe{
 #' }
 #' @source US Census Bureau
-"CoC_DF_2016"
+"states"
+

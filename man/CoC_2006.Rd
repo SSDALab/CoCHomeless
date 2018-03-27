@@ -4,7 +4,7 @@
 \name{CoC_2006}
 \alias{CoC_2006}
 \title{2006 Continuum of Care (CoC) GIS shapefiles and Homeless Counts}
-\format{An object of class \code{SpatialPolygonsDataFrame} with 366 rows and 9 columns.}
+\format{An object of class \code{SpatialPolygonsDataFrame} with 366 rows and 6 columns.}
 \source{
 Almquist, Helwig and You (2017). Working Paper.
 
